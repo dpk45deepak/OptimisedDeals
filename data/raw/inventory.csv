@@ -1,0 +1,201 @@
+shop_id,item_name,category,price_per_unit,unit,stock_quantity,discount_percent
+S001,Basmati Rice,grains,110,kg,150,5
+S001,Full Cream Milk,dairy,66,liter,40,0
+S001,Toor Dal,grains,160,kg,80,10
+S001,Iodized Salt,grains,28,kg,200,0
+S001,Green Chillies,vegetables,80,kg,15,0
+S001,Maggi Noodles,snacks,14,piece,500,0
+S001,Amul Butter 100g,dairy,58,piece,45,2
+S001,Sugar M,grains,48,kg,120,5
+S001,Moong Dal,grains,150,kg,90,5
+S001,Mustard Oil,oil,175,liter,60,10
+S002,Basmati Rice,grains,95,kg,500,15
+S002,Sunflower Oil,oil,145,liter,200,10
+S002,Amul Butter,dairy,56,piece,100,5
+S002,Potato,vegetables,25,kg,300,0
+S002,Frozen Corn,vegetables,75,packet,150,20
+S002,Coke 1.25L,beverages,70,piece,300,15
+S002,Britannia Bread,snacks,45,piece,80,5
+S002,Almonds 500g,snacks,450,packet,50,12
+S002,Dishwash Bar,snacks,30,piece,400,10
+S002,Dettol Soap 3pk,snacks,145,packet,200,15
+S003,Chicken Curry Cut,meat,240,kg,50,12
+S003,Farm Fresh Eggs,dairy,72,piece,240,0
+S003,Onion,vegetables,45,kg,200,5
+S003,Broccoli,vegetables,120,kg,30,0
+S003,Prawns Medium,meat,650,kg,20,15
+S003,Toned Milk,dairy,54,liter,150,2
+S003,Greek Yogurt,dairy,80,piece,60,10
+S003,Apples Royal Gala,fruits,220,kg,100,18
+S003,Cold Press Juice,beverages,120,piece,40,20
+S003,Sourdough Bread,snacks,95,piece,25,0
+S004,Basmati Rice,grains,85,kg,1000,20
+S004,Refined Sugar,grains,42,kg,800,10
+S004,Tea Leaves 1kg,beverages,450,packet,150,25
+S004,Arhar Dal 5kg,grains,750,packet,200,18
+S004,Refined Oil 5L,oil,610,packet,400,22
+S004,Kitchen King Masala,grains,65,packet,500,15
+S004,Basmati Rice Premium,grains,140,kg,300,30
+S004,Urad Dal,grains,125,kg,450,12
+S004,Surf Excel 5kg,snacks,650,packet,180,35
+S004,Coffee Powder 200g,beverages,380,packet,220,20
+S005,Paneer,dairy,380,kg,30,0
+S005,Mustard Oil,oil,165,liter,60,8
+S005,Digestive Biscuits,snacks,30,packet,100,5
+S005,Jaggery Powder,grains,70,kg,45,5
+S005,Desi Ghee 1L,oil,620,liter,40,12
+S005,Roasted Namkeen,snacks,45,packet,80,10
+S005,Honey 500g,grains,190,piece,35,15
+S005,Besan,grains,95,kg,70,0
+S005,Suji,grains,55,kg,60,0
+S005,Aloo Bhujia,snacks,50,packet,120,5
+S006,Avocado,fruits,450,kg,15,0
+S006,Organic Quinoa,grains,550,kg,25,10
+S006,Almond Milk,dairy,290,liter,20,15
+S006,Kale Leaves,vegetables,150,packet,10,0
+S006,Dark Chocolate,snacks,250,piece,40,5
+S006,Kombucha 330ml,beverages,180,piece,30,10
+S006,Greek Feta Cheese,dairy,450,packet,15,0
+S006,Extra Virgin Olive Oil,oil,1100,liter,25,20
+S006,Chia Seeds,grains,320,packet,30,15
+S006,Blueberries,fruits,400,packet,20,10
+S007,Salt,grains,25,kg,100,0
+S007,Turmeric Powder,grains,45,packet,50,5
+S007,Cow Ghee,oil,650,liter,30,5
+S007,Red Chilli Powder,grains,60,packet,60,0
+S007,Ginger Garlic Paste,grains,25,packet,100,0
+S007,Whole Wheat Flour,grains,45,kg,500,5
+S007,Poha,grains,65,kg,40,5
+S007,Ketchup Bottle,snacks,130,piece,35,10
+S007,Detergent Cake,snacks,20,piece,150,0
+S007,Bathing Soap,snacks,40,piece,80,5
+S008,Atta 10kg,grains,420,packet,80,12
+S008,Greek Yogurt,dairy,90,piece,40,20
+S008,Apple Fuji,fruits,180,kg,60,10
+S008,Orange Malta,fruits,110,kg,120,5
+S008,Papaya,fruits,50,kg,40,0
+S008,Kiwi 3pc,fruits,130,packet,45,15
+S008,Grapes Green,fruits,90,kg,70,10
+S008,Pomegranate,fruits,160,kg,55,5
+S008,Canned Pineapple,fruits,150,packet,30,20
+S008,Banana Robust,fruits,65,piece,150,0
+S009,Basmati Rice,grains,105,kg,300,15
+S009,Frozen Peas,vegetables,120,packet,100,30
+S009,Coke 2L,beverages,95,piece,80,10
+S010,Tomato,vegetables,40,kg,150,0
+S011,Blueberries,fruits,350,packet,15,10
+S012,Maggi 12-Pack,snacks,160,packet,90,10
+S013,Moong Dal,grains,140,kg,70,5
+S014,Salmon Fillet,meat,1800,kg,10,5
+S015,Rice 25kg Bag,grains,1600,packet,50,25
+S016,Fresh Chicken,meat,220,kg,40,10
+S017,Cold Drink 500ml,beverages,40,piece,100,0
+S018,Basmati Rice,grains,115,kg,400,12
+S019,T-Shirt (Grocery Bundle),snacks,500,piece,40,40
+S020,Sona Masuri Rice,grains,65,kg,200,0
+S009,Cornflakes 500g,snacks,185,packet,60,15
+S009,Peanut Butter,snacks,250,piece,45,10
+S009,Instant Noodles,snacks,120,packet,200,20
+S009,Soya Chunks,grains,55,packet,90,5
+S009,Fruit Juice 1L,beverages,110,piece,130,15
+S009,Milk Powder,dairy,350,packet,40,5
+S009,Green Tea 25 bags,beverages,220,packet,70,10
+S010,Onion,vegetables,42,kg,300,0
+S010,Potato,vegetables,22,kg,500,0
+S010,Cauliflower,vegetables,45,piece,80,0
+S010,Lady Finger,vegetables,60,kg,50,0
+S010,Green Peas,vegetables,80,kg,100,10
+S010,Carrot,vegetables,50,kg,120,5
+S010,Cucumber,vegetables,40,kg,90,0
+S010,Garlic,vegetables,200,kg,30,0
+S010,Ginger,vegetables,150,kg,40,0
+S011,Camembert Cheese,dairy,850,piece,10,5
+S011,Prosciutto,meat,1200,packet,8,0
+S011,Balsamic Vinegar,grains,650,piece,20,10
+S011,Sea Salt,grains,150,packet,45,5
+S011,Almond Butter,snacks,600,piece,25,12
+S011,Sparkling Water,beverages,110,piece,100,20
+S011,Belgian Waffles,snacks,350,packet,15,10
+S011,Cold Brew Coffee,beverages,250,piece,30,15
+S011,Macadamias,snacks,900,packet,12,5
+S012,Basmati Rice 5kg,grains,550,packet,120,15
+S012,Detergent 1kg,snacks,180,packet,200,10
+S012,Dishwash Liquid,snacks,105,piece,150,5
+S012,Shampoo 400ml,snacks,350,piece,80,20
+S012,Floor Cleaner 1L,snacks,170,piece,110,15
+S012,Cooking Oil 1L,oil,155,liter,300,8
+S012,Packet Tea,beverages,140,packet,150,10
+S012,Sugar 1kg,grains,45,kg,400,5
+S012,Bathroom Cleaner,snacks,95,piece,130,10
+S013,Wheat Flour 5kg,grains,210,packet,100,5
+S013,Kabuli Chana,grains,160,kg,80,0
+S013,Rajma Chitra,grains,170,kg,60,5
+S013,Garam Masala,grains,85,packet,120,10
+S013,Papad 200g,snacks,75,packet,200,5
+S013,Pickle Mango,snacks,140,piece,90,10
+S013,Soya Oil 1L,oil,135,liter,120,5
+S013,Sugar,grains,46,kg,300,0
+S013,Salt,grains,24,kg,500,0
+S014,Wagyu Beef (Import),meat,4500,kg,5,0
+S014,Lobster Tails,meat,3200,kg,4,10
+S014,Truffle Paste,grains,2200,piece,10,0
+S014,Vintage Cheddar,dairy,1400,kg,8,5
+S014,Saffron 1g,grains,450,piece,50,0
+S014,Manuka Honey,grains,1800,piece,15,10
+S014,Assorted Macarons,snacks,850,packet,20,5
+S014,Champagne (Non-Alc),beverages,1500,piece,12,15
+S014,Caviar Substitute,meat,1100,piece,10,0
+S015,Basmati Bulk 50kg,grains,3100,packet,20,30
+S015,Sugar 50kg,grains,1900,packet,15,20
+S015,Oil 15L Tin,oil,1850,packet,40,15
+S015,Washing Powder 10kg,snacks,950,packet,30,25
+S015,Tea 5kg Bag,beverages,1200,packet,25,20
+S015,Salt 25kg,grains,450,packet,50,15
+S015,Atta 50kg,grains,1650,packet,20,20
+S015,Pulses Mixed 10kg,grains,1100,packet,30,18
+S015,Soap Case (72 units),snacks,2200,packet,10,35
+S016,Chicken Breast,meat,350,kg,25,10
+S016,Chicken Wings,meat,280,kg,30,5
+S016,Mutton Curry Cut,meat,780,kg,15,0
+S016,Mutton Keema,meat,850,kg,12,0
+S016,Fish Rohu Cut,meat,320,kg,20,10
+S016,Fish Surmai,meat,950,kg,10,5
+S016,Eggs White (6pc),dairy,45,packet,100,0
+S016,Eggs Brown (6pc),dairy,75,packet,50,5
+S016,Chicken Seekh Kebab,meat,250,packet,40,20
+S017,Pepsi 500ml,beverages,40,piece,150,0
+S017,Kurkure,snacks,20,packet,200,5
+S017,Dairy Milk Silk,snacks,80,piece,100,10
+S017,Ice Cream 500ml,dairy,150,piece,40,15
+S017,Bread Milk,snacks,40,piece,60,0
+S017,Butter 100g,dairy,56,piece,50,0
+S017,Milk 500ml,dairy,33,piece,200,0
+S017,Soda Water,beverages,20,piece,100,0
+S017,Instant Coffee Sachet,beverages,2,piece,1000,0
+S018,Organic Potato,vegetables,45,kg,100,10
+S018,Organic Onion,vegetables,65,kg,100,5
+S018,Toned Milk 1L,dairy,54,liter,500,5
+S018,Brown Bread,snacks,55,piece,150,12
+S018,Peanut Butter 1kg,snacks,450,piece,80,20
+S018,Oats 1kg,grains,190,packet,120,15
+S018,Green Tea,beverages,150,packet,100,10
+S018,Sunflower Oil 1L,oil,160,liter,300,15
+S018,Toilet Roll 4pk,snacks,180,packet,150,25
+S019,Men's T-Shirt,snacks,250,piece,100,40
+S019,Bucket & Mug Set,snacks,199,piece,50,30
+S019,Rice 10kg,grains,450,packet,150,25
+S019,Refined Oil 2L,oil,280,packet,200,15
+S019,Sugar 2kg,grains,85,packet,300,10
+S019,Atta 5kg,grains,195,packet,200,15
+S019,Biscuits Family Pack,snacks,120,packet,150,20
+S019,Soft Drink 2L,beverages,85,piece,100,10
+S019,Steel Bottle,snacks,150,piece,80,15
+S020,Government Wheat Flour,grains,32,kg,1000,0
+S020,Government Rice,grains,35,kg,1000,0
+S020,Chana Dal,grains,95,kg,400,0
+S020,Sugar (Subsidized),grains,40,kg,500,0
+S020,Tea (Bhandar Special),beverages,280,kg,200,5
+S020,Mustard Oil 1L,oil,145,liter,300,5
+S020,Moong Dal,grains,130,kg,300,0
+S020,Iodized Salt,grains,20,kg,800,0
+S020,Hand Wash Refill,snacks,85,piece,150,10
