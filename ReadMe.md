@@ -11,9 +11,9 @@ Urban families often struggle to:
 
 - 🏷 Compare grocery prices across shops  
 - 💰 Stay within budget  
-- 📍 Minimize travel distance  
-- 📦 Ensure stock availability  
-- ⭐ Choose high-rated stores  
+- 📍 Minimize travel distance
+- 📦 Ensure stock availability
+- ⭐ Choose high-rated stores
 
 This project simulates a real-world grocery optimization engine using algorithmic decision-making and optimization techniques.
 
