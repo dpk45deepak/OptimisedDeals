@@ -5,11 +5,10 @@ from .dijkstra import dijkstra
 from .optimizer import optimize_shops
 
 
-def recommend(family_id, item_name, quantity, families_df, shops_df, inventory_df):
-
+def recommend_many(family_id, item_name, quantity, families_df, shops_df, inventory_df, top_n=5):
     family_row = families_df[families_df["family_id"] == family_id]
     if family_row.empty:
-        return {"error": "Family not found"}
+        return []
 
     family = Family(family_row.iloc[0])
 
@@ -19,11 +18,11 @@ def recommend(family_id, item_name, quantity, families_df, shops_df, inventory_d
     distances = dijkstra(graph)
 
     item_rows = inventory_df[
-        inventory_df["item_name"].str.lower().str.contains(item_name.lower())
+        inventory_df["item_name"].str.lower().str.contains(item_name.lower(), na=False)
     ]
 
     if item_rows.empty:
-        return {"error": "Item not available"}
+        return []
 
     results = []
 
@@ -43,15 +42,32 @@ def recommend(family_id, item_name, quantity, families_df, shops_df, inventory_d
         results.append({
             "shop_id": shop_row["shop_id"],
             "shop_name": shop_row["shop_name"],
-            "total_cost": total_cost,
-            "distance": distances[shop_row["shop_id"]],
-            "rating": shop_row["rating"]
+            "total_cost": round(total_cost, 2),
+            "distance": round(distances[shop_row["shop_id"]], 2),
+            "rating": round(shop_row["rating"], 2),
         })
 
     if not results:
-        return {"error": "No valid shop found"}
+        return []
 
     df = pd.DataFrame(results)
     ranked = optimize_shops(df)
 
-    return ranked.iloc[0].to_dict()
+    return ranked.head(top_n).to_dict(orient="records")
+
+
+def recommend(family_id, item_name, quantity, families_df, shops_df, inventory_df):
+    ranked_results = recommend_many(
+        family_id,
+        item_name,
+        quantity,
+        families_df,
+        shops_df,
+        inventory_df,
+        top_n=1,
+    )
+
+    if not ranked_results:
+        return {"error": "No valid shop found"}
+
+    return ranked_results[0]
